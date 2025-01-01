@@ -1,6 +1,6 @@
 # Top Slot Power  
 
-A multi source capable power supply for PSION Organiser II (all family) devices with power failure memory saver. The design reduces risk of internal device memory loss either due to external power interruption or due to Lithium 9 Volt surrogate battery discharge characteristics (limited if any warning). By providing sufficient standby power for longer term internal memory retention and specifically not operation. Permitting hours / days for recharge of main power battery or months of power down whilst preserving the internal RAM contents. The design fits a classic PSION Organiser II Top Slot Case (See all notes).
+A multi source capable power supply for PSION Organiser II (all family) devices with power failure memory saver. The design reduces risk of internal device memory loss either due to external power interruption or due to Lithium 9 Volt surrogate battery discharge characteristics (limited if any warning). By providing sufficient standby power for longer term internal memory retention and specifically not operation. Permitting hours / days for recharge of main power battery or months of power down whilst preserving the internal RAM contents. The design (should) fits a classic PSION Organiser II Top Slot Case (See all notes).
 <BR>
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
