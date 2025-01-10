@@ -37,7 +37,7 @@ The design presents a multi source capable power system for the Top Slot of a PS
 
 The PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 4 layer PCB design provides low cost of implementation. Whilst the PCB space claim is intended to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case </a> (See Considerations) and construction is surface mount and through hole PCB based for ease of assembly.  
 
-The through hole technology allows straight forward assembly of Barrel Jack and memory protection feature. Whilst the more advanced surface mount features are required for the USB-C power source. The design will operate as a memory saver device without the surface mount components, though <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic">this design</a> might be preferred in such circumstances.  
+The through hole technology allows straight forward assembly of Barrel Jack and memory protection feature. Whilst the more advanced surface mount features are required for the USB-C power source. The design will operate as a memory saver device without the surface mount components, though <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic#testing">this design</a> might be preferred in such circumstances.  
 
 <BR>
 
@@ -66,4 +66,5 @@ A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 17
 #### Power Backup  
 A low voltage 'secondary' power source is held on the PCB to allow for longer term retention when the main power supply or internal PP3 battery become depleted. Switching is automatic via diodes and the purposefully lower secondary battery level restricts usage to notification and memory backup only.  
 
+Details on testing and backup battery performance are located in the <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic">Top Slot Battery Saver Basic</a> repository.
 <BR>
