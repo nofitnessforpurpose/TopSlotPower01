@@ -66,5 +66,5 @@ A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 17
 #### Power Backup  
 A low voltage 'secondary' power source is held on the PCB to allow for longer term retention when the main power supply or internal PP3 battery become depleted. Switching is automatic via diodes and the purposefully lower secondary battery level restricts usage to notification and memory backup only.  
 
-Details on testing and backup battery performance are located in the <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic">Top Slot Battery Saver Basic</a> repository.
+Details on testing and backup battery performance are located in the <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic#testing">Top Slot Battery Saver Basic</a> repository.
 <BR>
