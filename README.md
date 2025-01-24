@@ -1,6 +1,6 @@
 # Top Slot Power  
 
-A multi source capable power supply for PSION Organiser II (all family) devices with power failure memory saver. The design reduces risk of internal device memory loss either due to external power interruption or due to Lithium 9 Volt surrogate battery discharge characteristics (limited if any warning). By providing sufficient standby power for longer term internal memory retention and specifically not operation. Permitting hours / days for recharge of main power battery or months of power down whilst preserving the internal RAM contents. The design (should) fits a classic PSION Organiser II Top Slot Case (See all notes).
+A multi power source capable power supply for PSION Organiser II (all family) devices with power failure memory saver. The design reduces risk of internal device memory loss either due to external power interruption or due to Lithium 9 Volt surrogate battery discharge characteristics (limited if any warning). By providing sufficient standby power for longer term internal memory retention and specifically not operation. Permitting hours / days for recharge of main power battery or months of power down whilst preserving the internal RAM contents. The design (should) fits a classic PSION Organiser II Top Slot Case (See all notes).
 <BR>
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
@@ -67,4 +67,20 @@ A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 17
 A low voltage 'secondary' power source is held on the PCB to allow for longer term retention when the main power supply or internal PP3 battery become depleted. Switching is automatic via diodes and the purposefully lower secondary battery level restricts usage to notification and memory backup only.  
 
 Details on testing and backup battery performance are located in the <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic#testing">Top Slot Battery Saver Basic</a> repository.
+
+
 <BR>
+
+## Questions / Discussion
+See <a target="_blank" rel="noopener noreferrer" href="https://www.organiser2.com/"> Organiser 2 Hardware </a> forum, though see note below first.
+
+<BR>
+
+## Please note:  
+Such a system does not obviate the need for standard good practice backup procedures.  
+Assessment for any fitness for purpose is entirely the users responsibility. Use is entirely at the users own risk. Any degradation to hardware, data loss or corruption is the responsibility of the user.
+
+All information is For Indication only.
+No association, affiliation, recommendation, suitability, fitness for purpose should be assumed or is implied.
+Registered trademarks are owned by their respective registrants.
+
