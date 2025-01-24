@@ -4,7 +4,7 @@ A multi power source capable power supply for PSION Organiser II (all family) de
 <BR>
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/photos/ONE-PSU-TRTA-01.jpg?raw=true" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
+  <img src="https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/photos/ONE-PSU-TRTA-05.jpg?raw=true" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
   </div>
 </div>
 <BR>
