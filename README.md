@@ -71,6 +71,11 @@ Details on testing and backup battery performance are located in the <a target="
 ### Software
 The device is transparent to the Organiser's Operating system and requires no software to operate.  
 
+### Connection
+It is preferable to avoid conneting the unit with no power source avilable e.g. absence of 9 Volt internal battery or power sourced via the units power connections i.e. 10.4 Volt Barrel Jack connection or USB-C connection. So as to avoid unecessarily discharging the backup batteries. By providing a main power source on connection of the unit. The internal capacitors of the Orgnaiser are 'pre-charged' from the main power source rather than the backup battery system, thus ensuring maximum life and thus protection.
+
+Use of a <a  target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Battery_pack#Power_bank">battery bank</a> to power the Orgnaiser will require a 'Keep-Alive' device (effecively a 555 timer plus low value resistance). The power drawn by the Organisers normal use is far too low for battery banks typical auto shut down features.  
+
 <BR>
 
 ## Considerations
