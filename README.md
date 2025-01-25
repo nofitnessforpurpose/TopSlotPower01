@@ -69,7 +69,8 @@ A low voltage 'secondary' power source is held on the PCB to allow for longer te
 Details on testing and backup battery performance are located in the <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic#testing">Top Slot Battery Saver Basic</a> repository.
 
 ### Software
-The device is transparent to the Organiser's Operating system and requires no software to operate.
+The device is transparent to the Organiser's Operating system and requires no software to operate.  
+
 <BR>
 
 ## Considerations
