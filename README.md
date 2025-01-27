@@ -99,7 +99,7 @@ Voltage regulation output voltage was found to be better than 0.3% between no lo
 
 ## Considerations
 
-When running at higher current loads these are outside the efficient normal operating range of the device. The design is intended for typical use, i.e. which does not involve continuous high current loads. The nominal 20 mA load current is more than sufficient for the majority of Organiser use cases. The relatively short period EPROM programming loads can typically be accepted with the reduced efficiency of the voltage conversion, which under 100 mA load can fall to as low as 50%. Use of high quality capacitors is partiulcalry recomended to accomodate ripple current typicaly arising from EPROM programming.   
+When running at higher current loads these are outside the efficient normal operating range of the device. The design is intended for typical use, i.e. which does not involve continuous high current loads. The nominal 20 mA load current is more than sufficient for the majority of Organiser use cases. The relatively short period EPROM programming loads can typically be accepted with the reduced efficiency of the voltage conversion, which under 100 mA load can fall to as low as 80% (from 95%). Use of high quality capacitors is partiulcalry recomended to accomodate ripple current typicaly arising from EPROM programming.   
 
 Models or files makes no accommodation for manufacturing tolerances, process or material - see Notes below.  
 
