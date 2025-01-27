@@ -96,6 +96,7 @@ Following 2 hours of load a maximum thermal rise of 10 C at 25 C room ambient wa
 Voltage regulation output voltage was found to be better than 0.3% between no load and full load. Effective voltage regulation at SVB was 0.5%.
 
 <BR>
+
 ## Considerations
 
 When running at higher current loads these are outside the efficient normal operating range of the device. The design is intended for typical use, i.e. which does not involve continuous high current loads. The nominal 20 mA load current is more than sufficient for the majority of Organiser use cases. The relatively short period EEPROM programming loads can typically be accepted with the reduced efficiency of the voltage conversion, which under 100 mA load can fall to as low as 50%. Use of high quality capacitors is partiulcalry recomended to accomodate ripple current typicaly arising from EPROM programming.   
