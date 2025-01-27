@@ -93,17 +93,19 @@ Following 2 hours of load a maximum thermal rise of 10 C at 25 C room ambient wa
 </div>
 <BR>
 
+As anticipated, the regulator and diode are the heat sources, the thermal image shows good heat soak into the PCB and additionally into the USB connector and its over mould.
+
 Voltage regulation output voltage was found to be better than 0.3% between no load and full load. Effective voltage regulation at SVB was 0.5%.
 
 <BR>
 
 ## Considerations
 
-When running at higher current loads these are outside the efficient normal operating range of the device. The design is intended for typical use, i.e. which does not involve continuous high current loads. The nominal 20 mA load current is more than sufficient for the majority of Organiser use cases. The relatively short period EPROM programming loads can typically be accepted with the reduced efficiency of the voltage conversion, which under 100 mA load can fall to as low as 80% (from 95%). Use of high quality capacitors is partiulcalry recomended to accomodate ripple current typicaly arising from EPROM programming.   
+When running at higher current loads these are outside the efficient normal operating range of the device. The design is intended for typical use, i.e. which does not involve continuous high current loads. The nominal 20 mA load current is more than sufficient for the majority of Organiser use cases. The relatively short period EPROM programming loads can typically be readily accepted with the reduced efficiency of the voltage conversion, which under 100 mA load can fall to as low as 80% (from 95%). Use of high quality capacitors is particularly recommended to accommodate ripple current typically arising from EPROM programming. A typical duty cycle might be of the order of 10%, though 24 hour (room temperature) <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Burn-in">burn in</a> testing has been completed in order to demonstrate design robustness.  
 
 Models or files makes no accommodation for manufacturing tolerances, process or material - see Notes below.  
 
-The original male 8 way 2 row top slot header style connector (marked MXS 70224) may have included a custom pin support moulding. Data from a parts list kindly indicated in this <a href="https://www.organiser2.com"> hardware forum</a> seemed to confirm this theory. Readily available 8 way 2 row header connectors tend to have smaller pin support mouldings. The effect of using pin headers with smaller moulding is to permit the PCB to displace vertically in the slot guide channel, resulting in poor alignment with the mating female connector and potential insertion difficulty. There are a number of mitigations, such as changing the height of the male header connector in the PCB and adding material to support the top of a smaller male header pin support moulding. The precise accommodation will depend on your selected pin header moulding, also see <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase-2">here</a>.  
+The original male 8 way 2 row top slot header style connector (marked MXS 70224) may have included a custom pin support moulding. Data from a parts list kindly indicated in this <a target="_blank" href="https://www.organiser2.com"> hardware forum</a> seemed to confirm this theory. Readily available 8 way 2 row header connectors tend to have smaller pin support mouldings. The effect of using pin headers with smaller moulding is to permit the PCB to displace vertically in the slot guide channel, resulting in poor alignment with the mating female connector and potential insertion difficulty. There are a number of mitigations, such as changing the height of the male header connector in the PCB and adding material to support the top of a smaller male header pin support moulding. The precise accommodation will depend on your selected pin header moulding, also see <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase-2">here</a>.  
 
 Connecting any device which has not undergone thorough testing, will lead to irreversible degradation!  
 
