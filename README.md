@@ -107,7 +107,7 @@ Near Field H Probe indication of the Rev 0.1 unit confirmed expectations that un
 <BR>
 <BR>
 
-In some aspects, especially the lower frequency band, the performance was better than an EBL battery (boost converter type) under similar load conditions and particularly under step load change conditions typical of the type occurring during EPROM programming!
+In some aspects, especially the lower frequency band, the performance was better than an EBL 5400 mWh battery (6F22 9V boost converter type) under similar load conditions and particularly under step load change conditions typical of the type occurring during EPROM programming!
 
 The H Field probe was maintained parallel to the top of PCB for assessment repeatability, this may not represent the highest amplitude. The lower side of the PCB exhibited levels ~ 1/3 of those on the upper side.  
 
