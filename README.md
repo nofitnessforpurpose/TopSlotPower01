@@ -101,7 +101,7 @@ Near Field H Probe indication of the Rev 0.1 unit confirmed expectations that un
 
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/photos/2027-01-28%20-%20OPTRTA%20-%20NF%20H%20Probe%2010%20mm%20LOOP%20Probe.png?raw=true" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
+  <img src="https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/photos/2027-01-28%20-%20OPSTRTA%20-%20NF%20H%20Probe%2010%20mm%20LOOP%20Probe.png?raw=true" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
   </div>
 </div>
 <BR>
