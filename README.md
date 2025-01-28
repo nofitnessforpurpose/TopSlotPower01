@@ -97,7 +97,20 @@ As anticipated, the regulator and diode are the heat sources, the thermal image 
 
 Voltage regulation output voltage was found to be better than 0.3% between no load and full load. Effective voltage regulation at SVB was 0.5%.
 
+Near Field H Probe indication of the Rev 0.1 unit confirmed expectations that under typical operating conditions the units emissions were low / undetectable (i.e. orders of magnitude lower than a co-located Arduino Nano). At full load, the magnetics and current flow gave rise to a characteristic ~150 MHz trace shown. Principally located at the boost convertor inductor and output capacitor. A future iteration will attempt to improve the full load performance somewhat by additionally targeting the output filters performance during full load. At ~ 5 cm from the device no appreciable H-Field signal was evident. Note the trace recorded with the device connected to a passive load frame. 
+
+<div align="center">
+  <div style="display: flex; align-items: flex-start;">
+  <img src="https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/photos/2027-01-28%20-%20OPTRTA%20-%20NF%20H%20Probe%2010%20mm%20LOOP%20Probe.png?raw=true" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
+  </div>
+</div>
 <BR>
+<BR>
+
+In some aspects, especially the lower frequency band, the performance was better than an EBL battery (boost converter type) under similar load conditions and particularly under step load change conditions typical of the type occurring during EPROM programming!
+
+The H Field probe was maintained parallel to the top of PCB for assessment repeatability, this may not represent the highest amplitude. The lower side of the PCB exhibited levels ~ 1/3 of those on the upper side.
+
 
 ## Considerations
 
