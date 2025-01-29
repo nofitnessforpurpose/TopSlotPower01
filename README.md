@@ -33,9 +33,9 @@ All the files are required for a complete assembly.
 <BR>
 
 ## Implementation
-The design presents a multi source capable power system for the Top Slot of a PSION Organiser II family of devices. Along with power source capability from the classic Barrel jack 10.4 Volt power supply and a USB-C connnection, a memory protection feature is included to protect the devices internal RAM memory. In the event of power loss / removal, internal RAM memory would be matained for up to 12 months together with time keeping functionality.  
+The design presents a multi source capable power system for the Top Slot of a PSION Organiser II family of devices. Along with power source capability from the classic Barrel jack 10.4 Volt power supply and a USB-C connection, a memory protection feature is included to protect the devices internal RAM memory. In the event of power loss / removal, internal RAM memory would be maintained for up to 12 months together with time keeping functionality.  
 
-The PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 4 layer PCB design provides low cost of implementation. Whilst the PCB space claim is intended to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case with minor modification </a> (See Considerations) a custom case is avilable in the repository, construction is surface mount and through hole PCB.    
+The PCB dimensions (38.0 x 43.6 mm) are ideally suited to low cost manufacture. The 4 layer PCB design provides low cost of implementation. Whilst the PCB space claim is intended to be suitable for a classic <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotCase">Top Slot Case with minor modification </a> (See Considerations) a potential custom case is demonstrated in the repository. Construction is intentionally a combination of surface mount and through hole PCB for implementation flexibility.  
 
 The through hole technology allows straight forward assembly of Barrel Jack and memory protection feature. Whilst the more advanced surface mount features are required for the USB-C power source. The design will operate as a memory saver device without the surface mount components, though <a target="_blank" rel="noopener noreferrer" href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic#testing">this design</a> might be preferred in such circumstances.  
 
@@ -72,9 +72,9 @@ Details on testing and backup battery performance are located in the <a target="
 The device is transparent to the Organiser's Operating system and requires no software to operate.  
 
 ### Connection
-It is preferable to avoid conneting the unit with no power source avilable e.g. absence of 9 Volt internal battery or power sourced via the units power connections i.e. 10.4 Volt Barrel Jack connection or USB-C connection. So as to avoid unecessarily discharging the backup batteries. By providing a main power source on connection of the unit. The internal capacitors of the Orgnaiser are 'pre-charged' from the main power source rather than the backup battery system, thus ensuring maximum life and thus protection.
+It is preferable to avoid connecting the unit with no power source available e.g. absence of 9 Volt internal battery or power sourced via the units power connections i.e. 10.4 Volt Barrel Jack connection or USB-C connection. So as to avoid unnecessarily discharging the backup batteries. By providing a main power source on connection of the unit. The internal capacitors of the Organiser are 'pre-charged' from the main power source rather than the backup battery system, thus ensuring maximum life and thus protection.
 
-Use of a <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Battery_pack#Power_bank">battery bank</a> to power the Orgnaiser will require a 'Keep-Alive' device (effecively a 555 timer plus low value resistance). The power drawn by the Organisers normal use is far too low for battery banks typical auto shut down features.  
+Use of a <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Battery_pack#Power_bank">battery bank</a> to power the Organiser will require a 'Keep-Alive' device (effectively a 555 timer plus low value resistance). The power drawn by the Organisers normal use is far too low for battery banks typical auto shut down features. 
 
 ### Battery use
 Remove batteries from unused devices.
