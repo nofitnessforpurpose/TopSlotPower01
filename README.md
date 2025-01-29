@@ -85,7 +85,7 @@ Also see <a target="_blank" rel="noopener noreferrer" href="https://github.com/n
 ## Testing
 Thermal evaluation of the device under full load (100 mA) conditions was performed to assess the temperature rise of the regulator and diode of the USB boost voltage regulator system. The input USB voltage was 4.9610 Volts at the PCB (5.250 Volts no load - 3 m USB cable), 10.118 Volts from the boost regulator output with the SVB voltage was 9.332 Volts presented to the load bank.
 
-Following 2 hours of load a maximum thermal rise of 10 C at 25 C room ambient was observed. The image was captured at this point, noting that the metal components surface finish alias temperature indication, as shown by the battery and holder having distinctly differing temperatures. The image is for indication only, with measurements taken using a 0.8 mm dia. welded bead thermocouple.
+Following 2 hours of load, a maximum thermal rise of 10 C at 25 C room ambient was observed. The image was captured at this point, noting that the metal components surface finish alias temperature indication, as shown by the battery and holder having distinctly differing temperatures. The image is for indication only, with measurements taken using a 0.8 mm dia. welded bead thermocouple.
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
   <img src="https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/photos/2025-01-27%20-%20100%20mA%202%20Hour%20Full%20Load%20Test%20-%20Max%2040%20C.png?raw=true" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
@@ -93,11 +93,11 @@ Following 2 hours of load a maximum thermal rise of 10 C at 25 C room ambient wa
 </div>
 <BR>
 
-As anticipated, the regulator and diode are the heat sources, the thermal image shows good heat soak into the PCB and additionally into the USB connector and its over mould.
+As anticipated the regulator and diode are the heat sources, the thermal image shows good heat soak into the PCB and additionally into the USB connector and its over mould.
 
-Voltage regulation output voltage was found to be better than 0.3% between no load and full load. Effective voltage regulation at SVB was 0.5%.
+Voltage regulators output voltage was found to be better than 0.3% between no load and full load. Effective voltage regulation at SVB was 0.5%.
 
-Near Field H Probe indication of the Rev 0.1 unit confirmed expectations that under typical operating conditions the units emissions were low / undetectable (i.e. orders of magnitude lower than a co-located Arduino Nano). At full load, the magnetics and current flow gave rise to a characteristic ~150 MHz trace shown. Principally located at the boost convertor inductor and output capacitor. A future iteration will attempt to improve the full load performance somewhat by additionally targeting the output filters performance during full load. At ~ 5 cm from the device no appreciable H-Field signal was evident. Note the trace recorded with the device connected to a passive load frame. 
+Near Field H Probe indication of the Rev 0.1 unit confirmed expectations that under typical operating conditions the units emissions were low / undetectable (i.e. orders of magnitude lower than a co-located Arduino Nano). At full load, the magnetics and current flow gave rise to a characteristic ~150 MHz trace shown. Principally located at the boost convertor inductor and boost convertor output filter capacitor. A future iteration will attempt to improve the full load performance by additionally targeting the output filters performance during full load. At ~ 5 cm from the device no appreciable H-Field signal was evident. Note the trace recorded with the device connected to a passive load frame. 
 
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
