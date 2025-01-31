@@ -102,6 +102,11 @@ Typical voltage output levels from the devices boost converter with an input vol
  - Measurements taken after 1 hr unless otherwise noted  
  - Measurement system characteristics - Input resistance 50 MOhm, 1 mV resolution  
 
+### Output Short Circuit
+To simulate a defective or over load scenario, with no device connected. The Vb line was connected to zero volts for a period of 5 seconds with 10 second intervals over 5 cycles. No degradation was observed and regulation voltage was measured at 10.084 Volts 30 seconds following the last cycle.
+
+Note: Longer short circuit intervals typically (should) cause USB upstream (e.g. polyfuse) protection to activate.
+
 ### Power Source Compatibility
 The unit was tested for a minimum of 1 hour in both standby and operational modes against the following power sources:  
  - Anker - A2033 - PowerPort III - 1 m cable (Anker)  
