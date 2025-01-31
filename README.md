@@ -32,6 +32,13 @@ All the files are required for a complete assembly.
 <BR>
 <BR>
 
+### On-Line Preview   
+Models might be viewed on line using the following links. Noting display of any mesh lines is a feature of the renderer and are not contained in the source STEP model. It is strongly recommended to use the source STEP file where ever possible, as any export process will introduce artifacts.  
+ - Top - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/CAD/2025%20top%2009%20-%20USB-C.stp">here</a>.  
+ - Bottom - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/CAD/Bottom%202025%2004%20-%20USB-C.stp">here</a>.  
+ - Assembly - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/CAD/Assbs01.stp">here</a>.  
+<BR>
+
 ## Implementation
 The design presents a multi source capable power system for the Top Slot of a PSION Organiser II family of devices. Along with power source capability from the classic Barrel jack 10.4 Volt power supply and a USB-C connection, a memory protection feature is included to protect the devices internal RAM memory. In the event of power loss / removal, internal RAM memory would be maintained for up to 12 months together with time keeping functionality.  
 
