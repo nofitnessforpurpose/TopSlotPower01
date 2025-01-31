@@ -83,10 +83,10 @@ Also see <a target="_blank" rel="noopener noreferrer" href="https://github.com/n
 <BR>
 
 ## Testing
-All measurements are taken at a nominal temperature of 21 C against unit 4w2xf_0003.
+All measurements are taken at a nominal temperature of 21 C against unit 4w2xf_0003.  
 
 ### Main Voltage
-Typical voltage output levels from the devices boost converter with an input voltage of 5.13 Volts nominal was measured (50 MOhm Measurement load):
+Typical voltage output levels from the devices boost converter with an input voltage of 5.13 Volts nominal was measured :
   | Load      | V Boost | Vb      |
   | --------- | ------- | ------- | 
   | No Load   | 10.086  |  9.789  |
@@ -94,32 +94,32 @@ Typical voltage output levels from the devices boost converter with an input vol
   | Nominal   | 10.083  |  9.378  |  
   | Full Load | 10.141  |  9.355  |  
 
- Conditions
- - No main 9 Volt battery fitted
- - Standby refers to unit powered off in sleep mode
- - Nominal refers to a program running an updating counter on the display at the maximum iteration rate
+ Conditions  
+ - No main 9 Volt battery fitted  
+ - Standby refers to unit powered off in sleep mode  
+ - Nominal refers to a program running an updating counter on the display at the maximum iteration rate  
  - Full load is measured against a passive load frame
- - Measurements taken after 1 hr unless otherwise noted
- - Measurement system characteristics - Input resistance 50 MOhm, 1 mV resolution
+ - Measurements taken after 1 hr unless otherwise noted  
+ - Measurement system characteristics - Input resistance 50 MOhm, 1 mV resolution  
 
 ### Power Source Compatibility
-The unit was tested for a minimum of 1 hour in both standby and operational modes against the following power sources:
- - Anker - A2033 - PowerPort III - 1 m cable (Anker)
- - Ikea - E1408 - 3 USB Charger KOPPLA - 1 m cable (Anker)
- - Ikea - E1401 - QI charger and USB outlet - 1 m cable (Anker)
- - Samsung - S005BBB0500100 - single output 5 Volt I.T.E Power Supply (5 V, 1 A) - 1 m cable (Anker)
- - Samsung Galaxy S23 - 1 m USB C Cable (Anker)
- - Samsung Galaxy S20 - 1 m USB C Cable (Anker)
- - P.C Computer - Generic - 3 m USB extension cable (Amazon Basics) 
- - P.C Computer - 1 m cable (Anker)
- - Portable computer - DELL - 1 m cable (Anker)
+The unit was tested for a minimum of 1 hour in both standby and operational modes against the following power sources:  
+ - Anker - A2033 - PowerPort III - 1 m cable (Anker)  
+ - Ikea - E1408 - 3 USB Charger KOPPLA - 1 m cable (Anker)  
+ - Ikea - E1401 - QI charger and USB outlet - 1 m cable (Anker)  
+ - Samsung - S005BBB0500100 - single output 5 Volt I.T.E Power Supply (5 V, 1 A) - 1 m cable (Anker)  
+ - Samsung Galaxy S23 - 1 m USB C Cable (Anker)  
+ - Samsung Galaxy S20 - 1 m USB C Cable (Anker)  
+ - P.C Computer - Generic - 3 m USB extension cable (Amazon Basics)   
+ - P.C Computer - 1 m cable (Anker)  
+ - Portable computer - DELL - 1 m cable (Anker)  
 
-### USB Connector mating cycles
- - Over 100 connector mating cycles were performed of the USB-C connector.
- - Connector pull testing aligned to the connectors principle axis was performed to ensure the connector robustly retained on the PCB.
+### USB Connector mating cycles  
+ - Over 100 connector mating cycles were performed of the USB-C connector.  
+ - Connector pull testing aligned to the connectors principle axis was performed to ensure the connector robustly retained on the PCB.  
 
-No degradation observed in soldering and attachment of the USB C connector to the PCB.
-Note: It is contra indicated to pull the cable from the connector without applying a counter acting force to the Top Slot case.
+No degradation observed in soldering and attachment of the USB C connector to the PCB.  
+Note: It is contra indicated to pull the cable from the connector without applying a counter acting force to the Top Slot case.  
 
 ### USB Connector orientation
 Connector was tested in both orientations to ensure power supplied regardless of USB C connector orientation
