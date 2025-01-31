@@ -58,7 +58,7 @@ Device power is prioritised to select from the various sources in the following 
  - Memory protection system
    
 #### USB-C  
-A USB-C connection is provided using basic 5 Volt capability only to provide maximum compatibility and obviate endpoint power management systems. A high quality buck boost power system with additional over voltage protection. Provides an additional feature to protect against USB-C Power Delivery over voltage scenarios.
+A USB-C connection is provided using basic 5 Volt capability only to provide maximum compatibility and obviate endpoint power management systems. A high quality buck boost power system with additional over voltage protection. Provides an additional feature to protect against potential USB-C Power Delivery over voltage scenarios.
 
 #### Barrel Jack  
 A classic Barrel Jack (5.5 mm outer, 2.0 mm pin) connector for the ~10.4 Volt 175 milli Amp centre positive pin power supply is located to be compatible with the classic Top Slot Case. The Barrel Jack connections are brought to 2 header pins on the left of the PCB to permit alternate power sources to be readily accommodated. (This is the same connector used on the classic Arduino Uno and Mega boards).  
@@ -71,7 +71,7 @@ Details on testing and backup battery performance are located in the <a target="
 ### Software
 The device is transparent to the Organiser's Operating system and requires no software to operate.  
 
-### Connection
+### Connection sequence
 It is preferable to avoid connecting the unit with no power source available e.g. absence of 9 Volt internal battery or power sourced via the units power connections i.e. 10.4 Volt Barrel Jack connection or USB-C connection. So as to avoid unnecessarily discharging the backup batteries. By providing a main power source on connection of the unit. The internal capacitors of the Organiser are 'pre-charged' from the main power source rather than the backup battery system, thus ensuring maximum life and thus protection.
 
 Use of a <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Battery_pack#Power_bank">battery bank</a> to power the Organiser will require a 'Keep-Alive' device (effectively a 555 timer plus low value resistance). The power drawn by the Organisers normal use is far too low for battery banks typical auto shut down features. 
@@ -83,9 +83,67 @@ Also see <a target="_blank" rel="noopener noreferrer" href="https://github.com/n
 <BR>
 
 ## Testing
-Thermal evaluation of the device under full load (100 mA) conditions was performed to assess the temperature rise of the regulator and diode of the USB boost voltage regulator system. The input USB voltage was 4.9610 Volts at the PCB (5.250 Volts no load - 3 m USB cable), 10.118 Volts from the boost regulator output with the SVB voltage was 9.332 Volts presented to the load bank.
+All measurements are taken at a nominal temperature of 21 C against unit 4w2xf_0003.
 
-Following 2 hours of load, a maximum thermal rise of 10 C at 25 C room ambient was observed. The image was captured at this point, noting that the metal components surface finish alias temperature indication, as shown by the battery and holder having distinctly differing temperatures. The image is for indication only, with measurements taken using a 0.8 mm dia. welded bead thermocouple.
+### Main Voltage
+Typical voltage output levels from the devices boost converter with an input voltage of 5.13 Volts nominal was measured (50 MOhm Measurement load):
+  | Load      | V Boost | Vb      |
+  | --------- | ------- | ------- | 
+  | No Load   | 10.086  |  9.789  |
+  | Standby   | 10.085  |  9.654  |
+  | Nominal   | 10.083  |  9.378  |  
+  | Full Load | 10.141  |  9.355  |  
+
+ Conditions
+ - No main 9 Volt battery fitted
+ - Standby refers to unit powered off in sleep mode
+ - Nominal refers to a program running an updating counter on the display at the maximum iteration rate
+ - Full load is measured against a passive load frame
+ - Measurements taken after 1 hr unless otherwise noted
+ - Measurement system characteristics - Input resistance 50 MOhm, 1 mV resolution
+
+### Power Source Compatibility
+The unit was tested for a minimum of 1 hour in both standby and operational modes against the following power sources:
+ - Anker - A2033 - PowerPort III - 1 m cable (Anker)
+ - Ikea - E1408 - 3 USB Charger KOPPLA - 1 m cable (Anker)
+ - Ikea - E1401 - QI charger and USB outlet - 1 m cable (Anker)
+ - Samsung - S005BBB0500100 - single output 5 Volt I.T.E Power Supply (5 V, 1 A) - 1 m cable (Anker)
+ - Samsung Galaxy S23 - 1 m USB C Cable (Anker)
+ - Samsung Galaxy S20 - 1 m USB C Cable (Anker)
+ - P.C Computer - Generic - 3 m USB extension cable (Amazon Basics) 
+ - P.C Computer - 1 m cable (Anker)
+ - Portable computer - DELL - 1 m cable (Anker)
+
+### USB Connector mating cycles
+ - Over 100 connector mating cycles were performed of the USB-C connector.
+ - Connector pull testing aligned to the connectors principle axis was performed to ensure the connector robustly retained on the PCB.
+
+No degradation observed in soldering and attachment of the USB C connector to the PCB.
+Note: It is contra indicated to pull the cable from the connector without applying a counter acting force to the Top Slot case.
+
+### USB Connector orientation
+Connector was tested in both orientations to ensure power supplied regardless of USB C connector orientation
+   
+### Barrel Jack Voltage
+Performance of the voltage via the barrel jack is exactly as per the classic power supply configuration due to use of the same 1N4001 diode.
+
+### Backup battery 
+#### Voltage
+The voltage drop across the diode was measured at 0.4264 Volts in standby mode, which will vary slightly due to clock interrupt activation.
+
+#### Protection events
+Main power was applied via USB or internal Battery. Content was stored on the devices internal memory and all main power sources removed. A period of 10 minutes was permitted  to elapse with no main power source applied. A main power source (USB or Battery) was reconnected and memory contents verified. 32 cycles were tested with no loss of data  identifed. 
+
+1, 12 and 24 hour main power source removal tests were performed, with no loss of data identifed. 
+
+Data verification comprised:
+ - Time keeping function maintained
+ - Program storage function maintained (program(s) run following power restoration).
+
+### Thermal evaluation
+Thermal evaluation of the device under full load (100 mA) conditions was performed to assess the temperature rise of the regulator and diode of the USB boost voltage regulator system. The input USB voltage was 4.9610 Volts at the PCB (5.250 Volts no load - 3 m USB cable), 10.118 Volts from the boost regulator output with the SVB voltage was 9.332 Volts presented to the load bank. The USB extension lead selected, so as to simulate a non-ideal scenario.
+
+Following 2 hours of load, a maximum thermal rise of 10 C at 25 C room ambient was observed. The image was captured at this point, noting that the metal components surface finish alias temperature indication, as shown by the battery and holder indicating excessively differing temperatures. The image is for indication only, with measurements taken using a 0.8 mm dia. welded bead thermocouple.
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
   <img src="https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/photos/2025-01-27%20-%20100%20mA%202%20Hour%20Full%20Load%20Test%20-%20Max%2040%20C.png?raw=true" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
@@ -97,6 +155,7 @@ As anticipated the regulator and diode are the heat sources, the thermal image s
 
 Voltage regulators output voltage was found to be better than 0.3% between no load and full load. Effective voltage regulation at SVB was 0.5%.
 
+### Near Field
 Near Field H Probe indication of the Rev 0.1 unit confirmed expectations that under typical operating conditions the units emissions were low / undetectable (i.e. orders of magnitude lower than a subsequently removed co-located Arduino Nano). At full load, the magnetics due to current flow gave rise to a characteristic ~150 MHz trace shown. Principally located at the boost convertor inductor and boost convertor output filter capacitor. A future refined iteration will seek to improve the full load performance by selecting a shielded inductor and additionally targeting the output filters performance during full load. At ~ 5 cm from the device no appreciable H-Field signal was evident. Note the trace recorded with the device connected to a passive load frame. 
 
 <div align="center">
