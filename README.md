@@ -119,14 +119,15 @@ The unit was tested for a minimum of 1 hour in both standby and operational mode
  - P.C Computer - 1 m cable (Anker)  
  - Portable computer - DELL - 1 m cable (Anker)  
 
-### USB Connector mating cycles  
+### USB Connector 
+#### Mating cycles  
  - Over 100 connector mating cycles were performed of the USB-C connector.  
  - Connector pull testing aligned to the connectors principle axis was performed to ensure the connector robustly retained on the PCB.  
 
 No degradation observed in soldering and attachment of the USB C connector to the PCB.  
 Note: It is contra indicated to pull the cable from the connector without applying a counter acting force to the Top Slot case.  
 
-### USB Connector orientation
+#### USB Connector orientation
 Connector was tested in both orientations to ensure power supplied regardless of USB C connector orientation
    
 ### Barrel Jack Voltage
