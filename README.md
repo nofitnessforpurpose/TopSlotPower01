@@ -146,6 +146,14 @@ Data verification comprised:
  - Time keeping function maintained
  - Program storage function maintained (program(s) run following power restoration).
 
+### Incorrect battery insertion
+All combinations of incorrect CR2032 battery insertion were tested. No measurable reverse voltage was applied. No backup power was supplied. No degradation identified.  
+
+Single battery insertion. No measurable voltage. No degradation identified.  
+
+Operation returned on correct insertion of batteries.  
+
+
 ### Thermal evaluation
 Thermal evaluation of the device under full load (100 mA) conditions was performed to assess the temperature rise of the regulator and diode of the USB boost voltage regulator system. The input USB voltage was 4.9610 Volts at the PCB (5.250 Volts no load - 3 m USB cable), 10.118 Volts from the boost regulator output with the SVB voltage was 9.332 Volts presented to the load bank. The USB extension lead selected, so as to simulate a non-ideal scenario.
 
