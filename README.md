@@ -142,7 +142,7 @@ Performance of the voltage via the barrel jack is exactly as per the classic pow
 
 ### Backup battery 
 #### Voltage
-The voltage drop across the diode was measured at 0.4264 Volts in standby mode, which will vary slightly due to clock interrupt activation.
+The forward voltage drop across the 1N4148 diode was measured at 0.4264 Volts whilst the unit in standby mode. This will vary slightly due to clock interrupt activation.
 
 #### Protection events
 Main power was applied via USB or internal Battery. Content was stored on the devices internal memory and all main power sources removed. A period of 10 minutes was permitted  to elapse with no main power source applied. A main power source (USB or Battery) was reconnected and memory contents verified. 32 cycles were tested with no loss of data  identifed. 
