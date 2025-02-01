@@ -158,7 +158,7 @@ Data verification comprised:
 #### Incorrect battery insertion
 All combinations of incorrect CR2032 battery insertion were tested. No measurable reverse voltage was applied. No backup power was supplied. No degradation identified.  
 
-Single battery insertion. No measurable voltage. No degradation identified.  
+Single battery insertion. No measurable voltage was applied. No degradation identified.  
 
 Operation returned on correct insertion of batteries.  
 
