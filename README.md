@@ -115,16 +115,18 @@ To simulate a defective or over load scenario (test performed with no Organiser 
 Note: Longer short circuit intervals typically (should) cause USB upstream (e.g. polyfuse) protection to activate.
 
 ### Power Source Compatibility
-The unit was tested for a minimum of 1 hour in both standby and operational modes against the following power sources:  
- - Anker - A2033 - PowerPort III - 1 m cable (Anker)  
- - Ikea - E1408 - 3 USB Charger KOPPLA - 1 m cable (Anker)  
- - Ikea - E1401 - QI charger and USB outlet - 1 m cable (Anker)  
- - Samsung - S005BBB0500100 - single output 5 Volt I.T.E Power Supply (5 V, 1 A) - 1 m cable (Anker)  
- - Samsung Galaxy S23 - 1 m USB C Cable (Anker)  
- - Samsung Galaxy S20 - 1 m USB C Cable (Anker)  
- - P.C Computer - Generic - 3 m USB extension cable (Amazon Basics)   
- - P.C Computer - 1 m cable (Anker)  
- - Portable computer - DELL - 1 m cable (Anker)  
+The unit was tested for a minimum of 1 hour in both standby and operational modes against the following power sources:
+ | Type             | Model          | Manufacurer | Harness / Connection | Comment  |
+ | ---------------- | -------------- | ----------- | -------------------- | - |
+ | PowerPort III    | A2033          | Anker       | 1 m cable (Anker)    | |
+ | KOPPLA Charger   | E1408          | Ikea        | 1 m cable (Anker)    | (3 port USB Charger) |
+ | QI charger & USB | E1401          | Ikea        | 1 m cable (Anker)    | |
+ | Charger          | S005BBB0500100 | Samsung     | 1 m cable (Anker)    | 5 Volt I.T.E Power Supply (5 V, 1 A) |
+ | Mobile phone     | Galaxy S23     | Samsung     | 1 m cable (Anker)    | |
+ | Mobile phone     | Galaxy S20     | Samsung     | 1 m cable (Anker)    | |
+ | Personal Computer | Generic       | Asus        | 3 m USB ext. cable (Amazon Basics)  |  |
+ | Personal Computer | Generic       | Asus        | 1 m cable (Anker)    | |
+ | Portable computer | DELL          | DELL        | 1 m cable (Anker)    | |
 
 ### USB Connector 
 #### Mating cycles  
@@ -132,7 +134,7 @@ The unit was tested for a minimum of 1 hour in both standby and operational mode
  - Connector pull testing aligned to the connectors principle axis was performed to ensure the connector robustly retained on the PCB.  
 
 No degradation observed in soldering and attachment of the USB C connector to the PCB.  
-Note: It is contra indicated to pull the cable from the connector without applying a counter acting force to the Top Slot case.  
+Note: It is contra indicated to pull a cable from the connector(s) without applying a counter acting force to the Top Slot case.  
 
 #### USB Connector orientation
 Connector was tested in both orientations to ensure power supplied regardless of USB C connector orientation
@@ -161,7 +163,7 @@ Single battery insertion. No measurable voltage. No degradation identified.
 Operation returned on correct insertion of batteries.  
 
 #### Reverse biased leakage current
-Reverse biased leakage current from the on-board battery system into the boost convertor via the S1G diode was measured at ~15 nA @ 21 C. Though less than 100th of the current required for battery backup of the device and in such conditions can be ignored. Where a system is not in use for extended periods this current will over time discharge the on board batteries. Hence it is recommended to remove batteries from a unit which is in long term storage. See also <a href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic?tab=readme-ov-file#stored-energy-use">here</a> concerning batteries.   
+Reverse biased leakage current from the on-board battery system into the boost convertor via the S1G diode was measured at ~15 nA @ 21 C. Though less than 100th of the current required for battery backup of the device and in such conditions can be ignored. Where a system is not in use for extended periods this current will over extended periods  discharge the on board batteries. Hence, it is recommended to remove batteries from a unit which is in long term storage. See also <a href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic?tab=readme-ov-file#stored-energy-use">here</a> concerning batteries.   
 
 ### Thermal evaluation
 Thermal evaluation of the device under full load (100 mA) conditions was performed to assess the temperature rise of the regulator and diode of the USB boost voltage regulator system. The input USB voltage was 4.9610 Volts at the PCB (5.250 Volts no load - 3 m USB cable), 10.118 Volts from the boost regulator output with the SVB voltage was 9.332 Volts presented to the load bank. The USB extension lead selected, so as to simulate a non-ideal scenario.
