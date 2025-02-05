@@ -196,7 +196,7 @@ In some aspects, especially the lower frequency band, the performance was better
 The H Field probe was maintained parallel to the top of PCB for assessment repeatability, this may not represent the highest amplitude. The lower side of the PCB exhibited levels ~ 1/3 of those on the upper side.  
 
 #### Durability
-Durability testing comprised over 168 hours use under typical user load cycling e.g. standby ~85%, programming EPROM's~1%, running programs ~14% etc. and was performed following all other testing. No issues were identified.
+Durability testing comprised over 168 hours use under typical user load cycling e.g. standby ~ 85%, programming EPROM's ~ 1%, running programs ~ 14% etc. and was performed following all other testing. No issues were identified.
 
 <BR>
 
