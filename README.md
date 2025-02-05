@@ -165,7 +165,7 @@ Operation returned on correct insertion of batteries.
 #### Reverse biased leakage current
 Reverse biased leakage current from the on-board battery system into the boost convertor via the S1G diode was measured at ~15 nA @ 21 C. Though less than 100th of the current required for battery backup of the device and in such conditions can be ignored. Where a system is not in use for extended periods this current will over extended periods  discharge the on board batteries. Hence, it is recommended to remove batteries from a unit which is in long term storage. See also <a href="https://github.com/nofitnessforpurpose/TopSlotBatterySaverBasic?tab=readme-ov-file#stored-energy-use">here</a> concerning batteries.   
 
-### Thermal evaluation
+#### Thermal evaluation
 Thermal evaluation of the device under full load (100 mA) conditions was performed to assess the temperature rise of the regulator and diode of the USB boost voltage regulator system. The input USB voltage was 4.9610 Volts at the PCB (5.250 Volts no load - 3 m USB cable), 10.118 Volts from the boost regulator output with the SVB voltage was 9.332 Volts presented to the load bank. The USB extension lead selected, so as to simulate a non-ideal scenario.
 
 Following 2 hours of load, a maximum thermal rise of 10 C at 25 C room ambient was observed. The image was captured at this point, noting that the metal components surface finish alias temperature indication, as shown by the battery and holder indicating excessively differing temperatures. The image is for indication only, with measurements taken using a 0.8 mm dia. welded bead thermocouple.
@@ -180,7 +180,7 @@ As anticipated the regulator and diode are the heat sources, the thermal image s
 
 Voltage regulators output voltage was found to be better than 0.3% between no load and full load. Effective voltage regulation at SVB was 0.5%.
 
-### Near Field
+#### Near Field
 Near Field H Probe indication of the Rev 0.1 unit confirmed expectations that under typical operating conditions the units emissions were low / undetectable (i.e. orders of magnitude lower than a subsequently removed co-located Arduino Nano). At full load, the magnetics due to current flow gave rise to a characteristic ~150 MHz trace shown. Principally located at the boost convertor inductor and boost convertor output filter capacitor. A future refined iteration will seek to improve the full load performance by selecting a shielded inductor and additionally targeting the output filters performance during full load. At ~ 5 cm from the device no appreciable H-Field signal was evident. Note the trace recorded with the device connected to a passive load frame. 
 
 <div align="center">
