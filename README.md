@@ -34,9 +34,9 @@ All the files are required for a complete assembly.
 
 ### On-Line Preview   
 Models might be viewed on line using the following links. Noting display of any mesh lines is a feature of the renderer and are not contained in the source STEP model. It is strongly recommended to use the source STEP file where ever possible, as any export process will introduce artifacts.  
- - Top - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/CAD/2025%20top%2009%20-%20USB-C.stp">here</a>.  
- - Bottom - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/CAD/Bottom%202025%2004%20-%20USB-C.stp">here</a>.  
- - Assembly - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/CAD/Assbs01.stp">here</a>.  
+ - Top - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/CAD/2025%20top%2009%20-%20USB-C.stp">here</a>  
+ - Bottom - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/CAD/Bottom%202025%2004%20-%20USB-C.stp">here</a>  
+ - Assembly - <a target="_blank" href="https://3dviewer.net/#model=https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/CAD/Assbs01.stp">here</a>  
 <BR>
 
 ## Implementation
