@@ -178,7 +178,7 @@ Following 2 hours of load, a maximum thermal rise of 10 C at 25 C room ambient w
 
 As anticipated the regulator and diode are the heat sources, the thermal image shows good heat soak into the PCB and additionally into the USB connector and its over mould.
 
-Voltage regulators output voltage was found to be better than 0.3% between no load and full load. Effective voltage regulation at SVB was 0.5%.
+Voltage regulators output voltage regulation was found to be better than 0.3% between no load and full load. Effective voltage regulation at SVB pin was 0.5%.
 
 #### Near Field
 Near Field H Probe indication of the Rev 0.1 unit confirmed expectations that under typical operating conditions the units emissions were low / undetectable (i.e. orders of magnitude lower than a subsequently removed co-located Arduino Nano). At full load, the magnetics due to current flow gave rise to a characteristic ~150 MHz trace shown. Principally located at the boost convertor inductor and boost convertor output filter capacitor. A future refined iteration will seek to improve the full load performance by selecting a shielded inductor and additionally targeting the output filters performance during full load. At ~ 5 cm from the device no appreciable H-Field signal was evident. Note the trace recorded with the device connected to a passive load frame. 
