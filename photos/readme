@@ -1,5 +1,15 @@
 All images (c) nofitnessforpurpose 2025 - All rights reserved
 
+2025-01-27 - 100 mA 2 Hour Full Load Test - Max 40 C.png      Thermal image of PCB under full load (2 hours)
+2027-01-28 - OPSTRTA - NF H Probe 10 mm LOOP Probe.png        H-Field response top of 10uH Sumida open inductor L1 - full load
+ONE-PSU-TRTA-01.jpg                           Rev 0.1 KiCad rendered pcb image
+ONE-PSU-TRTA-03.png                           Rev 0.11 Circuit diagram - Battery
+ONE-PSU-TRTA-04.png                           Rev 0.11 Circuit diagram - USB and Boost convertor
+ONE-PSU-TRTA-05.jpg                           Rev 0.1 Built PCB in Model LZ with USB power indication (No internal 9 Volt battery)
+ONE-PSU-TRTA-07.jpg                           Rev 0.1 Built PCB only from USB-C connection (shows solder bridge, see note)
+ONE-PSU-TRTA-08.jpg                           Rev 0.1 Built PCB only top view (shows solder bridge, see note)
+
+
 Note: Solder bridge R2 To C5 - Required on Rev 0.1 only
 
 One Ring image https://creativecommons.org/licenses/by-sa/4.0/
