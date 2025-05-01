@@ -94,9 +94,9 @@ All measurements are taken at a nominal temperature of 21 C against unit 4w2xf_0
 
 ### Main Voltage
 Typical voltage output levels from the devices boost converter with an input voltage of 5.13 Volts nominal was measured :
-  | Load      | V Boost | Vb      | I(Vb) mA |
+  | Load      | V Boost | Vb      | I(Vb) A |
   | --------- | ------- | ------- | -------- |
-  | No Load   | 10.086  |  9.789  | 0.000    |
+  | No Load   | 10.086  |  9.789  | 0.000000 |
   | Standby   | 10.085  |  9.654  | 0.000019 |
   | Nominal   | 10.083  |  9.378  | 0.004    | 
   | Full Load | 10.141  |  9.355  | 0.10142  | 
