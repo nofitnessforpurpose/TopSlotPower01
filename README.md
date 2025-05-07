@@ -103,9 +103,9 @@ Typical voltage output levels from the devices boost converter with an input vol
 
  Conditions  
  - No main 9 Volt battery fitted  
- - Standby refers to unit powered off in sleep mode  
- - Nominal refers to a program running an updating counter on the display at the maximum iteration rate  
- - Full load is measured against a passive load frame
+ - Standby refers to unit powered off in sleep mode, effectively both device and power supply in standby   
+ - Nominal refers to no program running, device with menu on screen
+ - Full load is measured against a passive load frame, simulating heavy utilisation such as I/O or standard EPROM types etc.
  - Measurements taken after 1 hr unless otherwise noted  
  - Measurement system characteristics - Input resistance 10 MOhm, 0.1 mV resolution  
 
