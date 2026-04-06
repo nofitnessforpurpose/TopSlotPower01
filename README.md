@@ -4,7 +4,7 @@ A multi power source capable power supply for PSION Organiser II (all family) de
 <BR>
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/photos/ONE-PSU-TRTA-05.jpg?raw=true" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
+  <img src="https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/photos/ONE-PSU-TRTA-05.jpg" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
   </div>
 </div>
 <BR>
@@ -171,7 +171,7 @@ Thermal evaluation of the device under full load (100 mA) conditions was perform
 Following 2 hours of load, a maximum thermal rise of 10 C at 25 C room ambient was observed. The image was captured at this point, noting that the metal components surface finish alias temperature indication, as shown by the battery and holder indicating excessively differing temperatures. The image is for indication only, with measurements taken using a 0.8 mm dia. welded bead thermocouple.
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/photos/2025-01-27%20-%20100%20mA%202%20Hour%20Full%20Load%20Test%20-%20Max%2040%20C.png?raw=true" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
+  <img src="https://github.com/nofitnessforpurpose/TopSlotPower01/blob/main/photos/2025-01-27%20-%20100%20mA%202%20Hour%20Full%20Load%20Test%20-%20Max%2040%20C.png" width="400px" alt="PSION Organiser II Top Slot Battery Saver. Image copyright (c) 14 December 2024 nofitnessforpurpose All Rights Reserved">
   </div>
 </div>
 <BR>
